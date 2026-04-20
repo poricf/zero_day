@@ -1,3 +1,1 @@
-module github.com/poricf/zero_day_scanner
-
-go 1.20
+module zero_day_scanner\ngo 1.20

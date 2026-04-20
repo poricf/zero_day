@@ -1,11 +1,2 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "engine_3.h"
-
-int run_core_exploit_3() {
-    char *buffer = malloc((1024));
-    if (!buffer) return -1;
-    printf("Executing core ops [Thread %d]...\n", 3);
-    free(buffer);
-    return 0;
-}
+int run_core_3() { return 0; }
