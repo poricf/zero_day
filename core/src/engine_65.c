@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "engine_65.h"
+
+int run_core_exploit_65() {
+    char *buffer = malloc((1024));
+    if (!buffer) return -1;
+    printf("Executing core ops [Thread %d]...\n", 65);
+    free(buffer);
+    return 0;
+}

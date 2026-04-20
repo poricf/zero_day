@@ -6,7 +6,6 @@ import (
 	"time"
 )
 
-// ScanTarget4 runs asynchronous port analysis
 func ScanTarget4(host string, port int) bool {
 	target := fmt.Sprintf("%s:%d", host, port)
 	conn, err := net.DialTimeout("tcp", target, 5*time.Second)

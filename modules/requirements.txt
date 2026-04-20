@@ -1,1 +1,2 @@
-requests==2.31.0\npysocks==1.7.1
+requests==2.31.0
+pysocks==1.7.1

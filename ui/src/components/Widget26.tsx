@@ -8,7 +8,6 @@ interface WidgetProps {
 export const DashboardWidget26: React.FC<WidgetProps> = ({ id, target }) => {
   const [data, setData] = useState<any[]>([]);
   useEffect(() => {
-    // Mock data fetch
     setData([{ id: 26, status: 'active', latency: Math.random() * 100 }]);
   }, []);
   return (
