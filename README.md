@@ -1,0 +1,1 @@
+# Zero Day Framework\n\nAdvanced multi-threaded vulnerability analysis and exploitation framework.\n\n## Architecture\n- `core/`: C memory-safe execution engine\n- `modules/`: Python payload and CVE implementations\n- `scanner/`: Go concurrent network analysis\n- `server/`: Rust async C2 server\n- `ui/`: React/TS Dashboard
